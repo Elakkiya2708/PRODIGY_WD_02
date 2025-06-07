@@ -17,7 +17,7 @@ This is a simple and interactive digital stopwatch application created using HTM
 - JavaScript
 
 ## 🔗 Live Demo:
-> https://codepen.io/Elakkiya-Varadharajan/pen/pvJRgJo
+> https://elakkiya2708.github.io/PRODIGY_WD_02/
 
 ## 👩‍💻 Developed by:
 *Elakkiya Varadharajan*  
