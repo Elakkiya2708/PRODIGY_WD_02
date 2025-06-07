@@ -1,0 +1,175 @@
+:root {
+
+  --bg: #0f2233;
+
+  --text: #ffffff;
+
+  --button-bg: #1c3b4d;
+
+  --button-hover: #33d9b2;
+
+  --lap-bg: #1c2e3b;
+
+}
+
+body {
+
+  background-color: var(--bg);
+
+  color: var(--text);
+
+  font-family: 'Segoe UI', sans-serif;
+
+  margin: 0;
+
+  padding: 0;
+
+  min-height: 100vh;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  position: relative;
+
+}
+
+.theme-toggle {
+
+  position: absolute;
+
+  top: 20px;
+
+  right: 20px;
+
+  background-color: #f39c12;
+
+  color: #fff;
+
+  border: none;
+
+  padding: 10px 14px;
+
+  border-radius: 25px;
+
+  font-size: 14px;
+
+  cursor: pointer;
+
+  transition: background 0.3s;
+
+  z-index: 999;
+
+}
+
+.theme-toggle:hover {
+
+  background-color: #d35400;
+
+}
+
+.container {
+
+  text-align: center;
+
+  margin-top: 30px;
+
+}
+
+.stopwatch {
+
+  font-size: 2.8rem;
+
+  padding: 20px 40px;
+
+  background: linear-gradient(to bottom, #ccc, var(--bg));
+
+  border-radius: 14px;
+
+  margin-bottom: 25px;
+
+}
+
+.buttons {
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 10px;
+
+}
+
+.button-row {
+
+  display: flex;
+
+  justify-content: center;
+
+  gap: 12px;
+
+}
+
+.buttons button {
+
+  flex: 1;
+
+  min-width: 100px;
+
+  padding: 12px;
+
+  font-size: 16px;
+
+  border: none;
+
+  border-radius: 8px;
+
+  background-color: var(--button-bg);
+
+  color: white;
+
+  cursor: pointer;
+
+  transition: background 0.3s;
+
+  text-align: center;
+
+}
+
+.buttons button:hover {
+
+  background-color: var(--button-hover);
+
+  color: black;
+
+}
+
+.lap-list {
+
+  list-style: none;
+
+  padding: 0;
+
+  margin-top: 20px;
+
+  max-height: 200px;
+
+  overflow-y: auto;
+
+}
+
+.lap-list li {
+
+  background-color: var(--lap-bg);
+
+  margin: 6px auto;
+
+  padding: 8px;
+
+  width: 200px;
+
+  border-radius: 6px;
+
+}
